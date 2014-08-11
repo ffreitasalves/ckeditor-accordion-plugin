@@ -22,14 +22,20 @@ Plugin Installed:
 Dependencies:
 =============
 
-You must have jquery, jquery-ui and jquery-ui css(any theme you like) in your views
-    `<link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"> `
-    `<script src="//code.jquery.com/jquery-1.10.2.js"></script>`
-    `<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>`
+You must have jquery, jquery-ui and jquery-ui css(any theme you like) in your views:
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"> 
+    
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    
+    <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 
 Usage:
 =======
 You need this script to show the accordion in your views:
-    `<script type="text/javascript">`
-        `$(".accordion").accordion();`
-    `</script>`
+
+    <script type="text/javascript">
+    
+        $(".accordion").accordion();
+        
+    </script>
