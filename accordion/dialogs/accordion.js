@@ -19,7 +19,6 @@ CKEDITOR.dialog.add( 'accordionDialog', function ( editor ) {
         ],
         onOk: function() {
             var dialog = this;
-            //var align = dialog.getValueOf( 'tab-basic', 'cmbAlign' );
             var sections = parseInt(dialog.getValueOf('tab-basic','number')); //Número de seções que serão criadas
 
             section = "<h3>Nome da Seção</h3><div><p>Insira o texto da seção do accordion aqui</p></div>"
