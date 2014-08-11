@@ -1,6 +1,6 @@
 CKEDITOR.dialog.add( 'accordionDialog', function ( editor ) {
     return {
-        title: 'Posicionamento do Accordion',
+        title: 'Configuração do Accordion',
         minWidth: 400,
         minHeight: 200,
         contents: [
