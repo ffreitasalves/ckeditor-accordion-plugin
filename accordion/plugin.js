@@ -1,8 +1,6 @@
 CKEDITOR.plugins.add( 'accordion', {
     icons: 'accordion',
     init: function( editor ) {
-        // Plugin logic goes here...
-
         //adicionando o comando
         editor.addCommand( 'accordionDialog', new CKEDITOR.dialogCommand( 'accordionDialog' ) );
 
