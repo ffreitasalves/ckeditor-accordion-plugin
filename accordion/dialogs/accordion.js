@@ -8,25 +8,6 @@ CKEDITOR.dialog.add( 'accordionDialog', function ( editor ) {
                 id: 'tab-basic',
                 label: 'Basic Settings',
                 elements: [
-//                    {
-//                        id: 'cmbAlign',
-//                        type: 'select',
-//                        requiredContent: 'table[align]',
-//                        'default': '',
-//                        label: editor.lang.common.align,
-//                        items: [
-//                            [ editor.lang.common.notSet, '' ],
-//                            [ editor.lang.common.alignLeft, 'left' ],
-//                            [ editor.lang.common.alignCenter, 'center' ],
-//                            [ editor.lang.common.alignRight, 'right' ]
-//                        ],
-//                        commit: function( data, selectedTable ) {
-//                            if ( this.getValue() )
-//                                selectedTable.setAttribute( 'align', this.getValue() );
-//                            else
-//                                selectedTable.removeAttribute( 'align' );
-//                        }
-//                    },
                     {
                         type: 'text',
                         id: 'number',
